@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transtion</title>
+     <style>
+        .all{
+            width: 350px;
+             height: 500px;
+             /* background-color: aqua; */
+             margin: 0 auto;
+             transition: all ease 2s 0.6s;
+             position: relative;
+             box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px;
+        }
+        .all:hover{
+            
+            box-shadow: rgba(0, 0, 0, 0.35) 1px 10px 15px;
+        }
+        .photo{
+            background: url(/nike.jpg);
+            width: 350px;
+            height: 250px;
+
+        }
+        .text{
+            width: 350px;
+            position: absolute;
+            left: 30%;
+            bottom: 40%;
+            font-size: 20px;
+            
+
+        }
+        .text1{
+            font-size: 10px;
+            position: absolute;
+            bottom: 20%;
+            left: 18%;
+
+        }
+
+
+        .et{
+            width: 4px;
+            height: 40px;
+            background-color: red;
+            border-radius: 5px;
+            position: absolute;
+            left: 60%;
+            bottom: 30%;
+            transition: all ease 1s;
+        }
+        .et:hover{
+            width: 140px;
+
+
+
+        }
+
+
+
+
+     </style>
+</head>
+<body>
+
+    <div class="all">
+<div class="photo"></div>
+<div class="text">hello this is a test</div>
+<div class="text1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+
+<div class="et"></div>
+
+    </div>
+    
+
+
+
+
+
+
+
+
+
+</body>
+</html>

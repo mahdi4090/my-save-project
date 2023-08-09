@@ -1,0 +1,213 @@
+/* body{
+    background-image: url(pngw.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 300px;
+    background-position: center;
+    background-color: grey;
+} */
+/* #opacity{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+
+    opacity: 1;
+    transition: all ease 2s;
+    /* inset: 10px 20px 30px 10px; 
+
+}*/
+/* #opacity:hover{
+
+    opacity: 0.5;
+
+
+}
+
+.gradient1{
+
+border: 2px solid red;
+height: 100px;
+background: linear-gradient(to left,red,grey,blue);
+}
+.gradient2{
+
+    border: 2px solid red;
+    height: 100px;
+    background: linear-gradient(to top left,grey 50%,orange 1% ,green);
+    }
+
+    .gradient3{
+
+        border: 2px solid red;
+        height: 100px;
+        background: radial-gradient(red,gray,green,blue);
+        }
+
+            .gradient4{
+                height: 300px;
+                width: 270px;
+
+                background: linear-gradient(to top right,rgba(0,0,0,0.4),rgba(0,0,0,0.9)),url("  img.jpg");
+            } */
+
+/* .box1 {
+  background-color: red;
+  width: 200px;
+        height: 200px;
+        float: right;
+        padding: calc(50px+20px);
+}
+.box2{
+
+background-color: khaki;
+width: 200px;
+height: 200px;
+padding: 50px;
+}
+.box3{
+
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    box-sizing: border-box;
+    } */
+    
+    /* .box{
+        width: 400px;
+        height: 400px;
+        position: absolute
+
+    }
+    .box1{
+        background-color: aqua;
+
+        z-index: 1;
+    }
+    .box2{
+
+        background-color: blue;
+        z-index: 5;
+    }
+    .box3{
+        background-color: blueviolet;
+    }
+    .box4{
+        background-color:brown ;
+    }
+     */
+
+
+     /* .transform{
+        width: 210px;
+        height: 210px;
+        background-color: aqua ;
+        
+        margin: 200px;
+         
+        transition: all ease 0.8s;
+        border-radius: 20px;
+
+     }
+     .box1:hover{
+transform:  translate(120px , 150px);
+     }
+
+     .box2:hover{
+        transform: scale(2);
+     }
+     .box3:hover{
+        transform: rotate(50deg);
+     }
+     .box4:hover{
+        transform: skew(20deg ,40deg);
+     }
+ */
+
+/* .stay{
+    background-color: rgb(40, 106, 99);
+    border-radius: 20px;
+    width: 200px;
+    height: 50px; 
+    position: relative;
+    margin: 0 auto;
+
+}
+.stay p{
+
+    color:antiquewhite;
+     text-align: center;
+
+
+}
+ .stay::after {
+    content:"";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color:rgb(40, 106, 99);
+    right: 188px;
+    bottom: -4px;
+    transform:rotate(120deg) skewX(40deg) translateY(-5px);
+    border-radius: 3px;
+} */
+
+
+
+
+
+/* .animation{
+        background-color: blueviolet;
+        width: 200px;
+        height: 200px;
+        animation:Move 6s ease infinite  ;
+       
+transition: all ease 4s;
+     
+}
+
+ 
+@keyframes Move{
+
+    25%{
+        right: 500px;
+    }
+    50%{
+       bottom: 500px;
+    }
+   
+    100%{
+       left: 500px;
+    }
+
+
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

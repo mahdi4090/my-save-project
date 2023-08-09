@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .box1 {
+        width: 400px;
+        height: 400px;
+        /* background: url(/80s\ businessman\ takes\ a\ phone\ call\ infront\ of\ his\ MKI\ Toyota\ Soarer.jpg); */
+        top: 100px;
+        left: 20px;
+        position: relative;
+        display: inline-block;
+        
+      }
+      .overlay1 {
+        width: 400px;
+        position: absolute;
+        opacity: 0;
+        transition: all ease 0.7s;
+        height: 400px;
+        background: linear-gradient(45deg, black, #0000005b);
+        box-shadow: 10px 10px 20px black;
+       
+      }
+
+      .overlay1:hover {
+        opacity: 1;
+      }
+      
+      .left1 {
+        height: 200px;
+        width: 100px;
+        border: 2px solid antiquewhite;
+        border-top: none;
+        border-right: none;
+        position: absolute;
+        bottom: 15px;
+        left: 15px;
+      }
+      .right1 {
+        height: 200px;
+        width: 100px;
+        border: 2px solid antiquewhite;
+        border-bottom: none;
+        border-left: none;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+      }
+
+      .box2 {
+        width: 400px;
+        height: 400px;
+        background: url(/Waiting\ 2_0.gif);
+        top: 100px;
+        left: 20px;
+        position: relative;
+        display: inline-block;
+        margin-left: 120px;
+        box-sizing: border-box;
+      }
+      .overlay2 {
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        opacity: 0;
+        transition: all ease 0.7s;
+
+        background: linear-gradient(45deg, black, #0000005b);
+        box-shadow: 10px 10px 20px black;
+      }
+
+      .overlay2:hover {
+        opacity: 1;
+      }
+      .left2 {
+        height: 200px;
+        width: 100px;
+        border: 2px solid antiquewhite;
+        border-top: none;
+        border-right: none;
+        position: absolute;
+        bottom: 15px;
+        left: 15px;
+      }
+      .right2 {
+        height: 200px;
+        width: 100px;
+        border: 2px solid antiquewhite;
+        border-bottom: none;
+        border-left: none;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+      }
+
+      .box3 {
+        width: 400px;
+        height: 400px;
+        background: url(/nike.jpg);
+        top: 100px;
+        left: 20px;
+        position: relative;
+        display: inline-block;
+        margin-left: 120px;
+        box-sizing: border-box;
+      }
+      .overlay3 {
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        opacity: 0;
+        transition: all ease 0.7s;
+
+        background: linear-gradient(45deg, black, #0000005b);
+        box-shadow: 10px 10px 20px black;
+      }
+
+      .overlay3:hover {
+        opacity: 1;
+      }
+      .left3 {
+        height: 200px;
+        width: 100px;
+        border: 2px solid antiquewhite;
+        border-top: none;
+        border-right: none;
+        position: absolute;
+        bottom: 15px;
+        left: 15px;
+      }
+      .right3 {
+        height: 200px;
+        width: 100px;
+        border: 2px solid antiquewhite;
+        border-bottom: none;
+        border-left: none;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+      }
+      .text1 {
+        font-family: 'Borel', cursive;
+        position: absolute;
+        top: 160px;
+        left: 120px;
+        color: khaki;
+      }
+      .text2 {
+        font-family: 'Borel', cursive;
+        position: absolute;
+        top: 160px;
+        left: 120px;
+        color: khaki;
+      }
+      .text3 {
+        
+        position: absolute;
+        top: 160px;
+        left: 120px;
+        color: khaki;
+      }
+      
+      
+      
+      @media only screen and (max-width: 600px) {
+        body {
+          background-color: lightblue;
+        }
+        .box1{
+          position: relative;
+          left: 70px;
+        }
+        .box2{
+          margin-bottom: 50px;
+          margin-top: 50px;
+          right: 50%;
+        }
+      }
+      body {
+  font-family: "Audiowide", sans-serif;
+}
+    </style>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+
+    <title>media query</title>
+  </head>
+  <body>
+    <div class="box1" background="/80s\ businessman\ takes\ a\ phone\ call\ infront\ of\ his\ MKI\ Toyota\ Soarer.jpg|">
+      <div class="overlay1">
+        <div class="left1"></div>
+        <h2 class="text1">this is a box 1</h2>
+        <div class="right1"></div>
+      </div>
+    </div>
+
+    <div class="box2">
+      <div class="overlay2">
+        <div class="left2"></div>
+        <h2 class="text2">this is a box 2</h2>
+        <div class="right2"></div>
+      </div>
+    </div>
+
+    <div class="box3">
+      <div class="overlay3">
+        <div class="left3"></div>
+        <h2 class="text3">this is a box 3</h2>
+        <div class="right3"></div>
+      </div>
+    </div>
+  </body>
+</html>
