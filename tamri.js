@@ -75,7 +75,7 @@ var colors= ["blue", "red", "orange","green"];
 
 
 
-var Mytime= 20;
+var Mytime= new Date().getDay();
 
 var day;
 
