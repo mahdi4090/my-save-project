@@ -75,51 +75,134 @@ var colors= ["blue", "red", "orange","green"];
 
 
 
-var Mytime= new Date().getDay();
+// var Mytime= new Date().getDay();
 
-var day;
+// var day;
 
-switch(Mytime){
+// switch(Mytime){
 
-case 0:
-    day="یکشنبه";
-    break;
-case 1:    
-    day="دوشنبه";
-    break;
-case 2:
-    day= "سه شنبه";
-    break;
-case 3 :
-    day="چهار شنبه";
-    break;
-case 4:
-    day= "پنجشنبه";
-    break;
-case 5 :
-    day="جمعه";
-    break;
-case 6 :
-    day="شنبه";
-    break;
-default :
-    day= "the value not faund";
-
-
-
-
+// case 0:
+//     day="یکشنبه";
+//     break;
+// case 1:    
+//     day="دوشنبه";
+//     break;
+// case 2:
+//     day= "سه شنبه";
+//     break;
+// case 3 :
+//     day="چهار شنبه";
+//     break;
+// case 4:
+//     day= "پنجشنبه";
+//     break;
+// case 5 :
+//     day="جمعه";
+//     break;
+// case 6 :
+//     day="شنبه";
+//     break;
+// default :
+//     day= "the value not faund";
+// };
+// console.log(day);
 
 
 
 
-};
-console.log(day);
+// function mahdi() {
+    
+// alireza==reza ? console.log(    "reza") : console.log(alireza==reza);
+ 
+// }
+
+//  alireza=12;
+//  reza= 23;
+// mahdi();
+
+
+
+// const Mahdi=23;
+
+
+//  console.log(Mahdi);
+
+
+// var variabel=23;
+// variabel= 54;
+// console.log(variabel);
+
+
+// function name()
+// {
+
+// let ajax= 23;
+ 
+// if (ajax=23){
+
+// let ajax=56;
+
+
+// console.log(ajax);
+// }
 
 
 
 
 
+// console.log(ajax);
+// }
+// name();
 
+
+
+
+// var course={
+//  title: "javascript",
+//  teacher: "Mohammad Hashemi",
+// level: 1 ,
+// views:0,
+// isactive:true,
+//  updateviews:function (){
+//     return ++ course.views;
+// }
+
+// };
+// course.updateviews();
+// console.log(course);
+
+
+
+// function Course(title,teacher,level,views,isActive,updateviews){
+
+// this.title=title,
+// this.teacher=teacher,
+// this.level=level,
+// this.views=views,
+// this.isActive=isActive,
+// this.updateviews=function (){
+//     return ++ this.views;
+// }
+
+
+// this.updateviews()
+// };
+
+// var Course1=new Course("JavaScript","Mohammad Hashemi",2,0,true);
+// var Course2= new Course("Html & Css", "Milad Dehyami", 1,38,false);  
+
+
+// console.log(Course1);
+// console.log(Cours
+
+
+
+var cars= [ "bens","bmw","206"]
+
+for (let i = 0; i < 3; i++) {
+    console.log("the cars brand is:"+cars[i]);
+    
+}
 
 
 
