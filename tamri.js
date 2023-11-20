@@ -195,19 +195,66 @@ var colors= ["blue", "red", "orange","green"];
 // console.log(Course1);
 // console.log(Cours
 
+ var linebreak= "<br/>";
 
 
-var cars= [ "bens","bmw","206"]
+// var cars= [ "bens","bmw","206"]
 
-for (let i = 0; i < 3; i++) {
-    console.log("the cars brand is:"+cars[i]);
+// for (let i = 0; i < 3; i++) {
+//     console.log("the cars brand is:"+cars[i]);
     
-}
+// }
+
+
+
+// for (let i = 0; i < 100; i++) {
+//     document.write("I Love You🗿😍" +"<br/>" );
+    
+// }
+ //const car =["bmw","azera","santafe"]
+
+// const cars = {name:"bmw x4",productyear:2015, isABS:true};
+
+// for (value in cars)
+// {
+//     console.log(value)
+// };
+// for (ip of car)
+// {
+//     console.log(ip)
+//
+//};
+
+i = 0;
+
+// for (i=0; i<10 ; i++)
+// {
+
+//     if (i==5)
+//     {
+//         continue;
+//     }
+
+
+//     console.log(i);
+
+// }
+
+
+// while(car[i])
+// {
+//     console.log(car[i])  
+//     i++;
+// };
+
+
+
+ document.getElementById("test").innerHTML="date is :"+Date();
 
 
 
 
-
+16
 
 
 
