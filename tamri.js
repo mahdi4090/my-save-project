@@ -11,7 +11,7 @@
 // a= 20;
 // b=30;
 // c= a*b;
-
+// console.log(c)
 
 // document.write(Age+c)
 // window.alert("hello im "+Name+' '+LastName)
@@ -38,7 +38,7 @@ var colors= ["blue", "red", "orange","green"];
 //var NewArray=colors.slice();//کپی کردن اون ارایه ها 
 //var result=colors.indexOf("red",0);//برای جستجو در ارایه ها استفاده میشه
 //console.log(result);
-//var Arraystring = colors.join(" ^ ");//این تابع ارایه هارو به صورت یک استرینگ در میاورد و در پرانتز نوع فاصله های بین ارایه ها قابل مشاهده است 
+//var Arraystring = colors.join(" . ");//این تابع ارایه هارو به صورت یک استرینگ در میاورد و در پرانتز نوع فاصله های بین ارایه ها قابل مشاهده است 
 //console.log(Arraystring);
 
 
