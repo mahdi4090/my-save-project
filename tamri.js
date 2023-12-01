@@ -49,7 +49,7 @@ var colors= ["blue", "red", "orange","green"];
 
 // var a,b;
 // a=2;
-// b=6;
+// b="2";
 // var isEqual;
 // if ( b==a ){//                                  
 
@@ -58,8 +58,9 @@ var colors= ["blue", "red", "orange","green"];
 // }
 // else
 // {
-// isEqual= "false";
-// };
+//  isEqual= false;
+// }; 
+//a==b ? isEqual= true : isEqual=false;
 // console.log("the problem is:" + isEqual);
 //==مقایسه کردن 
 // =مساوی قرار دادن
@@ -68,44 +69,44 @@ var colors= ["blue", "red", "orange","green"];
 // (a==b & a===b)انجام دادن دو شرط که هر دو باید درست باشد
 // (a==b |  a===b) یک شرط هم درست باشد کافی است
 //a==b  ? isEqual=true : isEqual= false; //به این کد شرط های سه گانه میگویند که تمام کد های بالا را در یک خط خلاصه کرده است
-//console.log("the problme is:" +isEqual);
+// console.log("the problme is:" +isEqual);
 
 
 
 
 
 
-// var Mytime= new Date().getDay();
+var Mytime= new Date().getDay();
 
-// var day;
+var day;
 
-// switch(Mytime){
+switch(Mytime){
 
-// case 0:
-//     day="یکشنبه";
-//     break;
-// case 1:    
-//     day="دوشنبه";
-//     break;
-// case 2:
-//     day= "سه شنبه";
-//     break;
-// case 3 :
-//     day="چهار شنبه";
-//     break;
-// case 4:
-//     day= "پنجشنبه";
-//     break;
-// case 5 :
-//     day="جمعه";
-//     break;
-// case 6 :
-//     day="شنبه";
-//     break;
-// default :
-//     day= "the value not faund";
-// };
-// console.log(day);
+case 0:
+    day="یکشنبه";
+    break;
+case 1:    
+    day="دوشنبه";
+    break;
+case 2:
+    day= "سه شنبه";
+    break;
+case 3 :
+    day="چهار شنبه";
+    break;
+case 4:
+    day= "پنجشنبه";
+    break;
+case 5 :
+    day="جمعه";
+    break;
+case 6 :
+    day="شنبه";
+    break;
+default :
+    day= "the value not faund";
+};
+console.log(day);
 
 
 
